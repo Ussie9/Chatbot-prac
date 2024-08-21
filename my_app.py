@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+import spacy
+from spacy.matcher.matcher import Matcher
+import python-telegram-bot
+from telegram.ext import Application, CommandHandler, MessageHandler, filters, ConversationHandler
+import random
+
 nlp = spacy.load("en_core_web_sm")
 matcher = Matcher(nlp.vocab)
 

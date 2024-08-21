@@ -1,4 +1,5 @@
-import spacy
+spacy
 from spacy.matcher.matcher import Matcher
-from telegram.ext import Application, CommandHandler, MessageHandler, filters, ConversationHandler
-import random
+python-telegram-bot
+telegram.ext import Application, CommandHandler, MessageHandler, filters, ConversationHandler
+random
